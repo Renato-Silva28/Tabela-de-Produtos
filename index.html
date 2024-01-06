@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/libs/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="public/styles/style.css"/>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Tabela de Produtos</title>
+    
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td {
+            border: 1px solid rgb(194, 18, 62);
+            padding: 8px;
+            text-align: center;
+        }
+        td.editavel {
+            cursor: pointer;
+        }
+        body {
+            /* Adicione o caminho da sua imagem como valor da propriedade background */
+            background: url("Img/Segu.jpg") no-repeat center center fixed; 
+            /* Ajusta o tamanho da imagem para cobrir toda a tela */
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+       
+        }
+    </style>
+</head>
+<body>
+    
+    
+    <h1 style="width: 55%">Seus Produtos Aqui</h1>
+
+    <h2>Faça Login em sua conta</h2>
+    <h3>Acesse sua conta informando seu Login e Senha de acesso.</h3>
+
+    <div class="page">
+        <form method="POST" class="formLogin">
+            <h1>Login</h1>
+            <p>Digite os seus dados de acesso no campo abaixo.</p>
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
+            <label for="password">Senha</label>
+            <input type="password" placeholder="Digite seu e-mail" />
+            <a href="/">Esqueci minha senha</a>
+            <input type="submit" value="Acessar" class="btn" />
+        </form>
+    </div>
+      
+    <script src="script.js">
+        
+        
+    </script>
+
+    
+    <img src="Img\deep.png" height="15%" width="10%">
+
+    <p id="horaAcesso"></p>
+</body>
+</html>
